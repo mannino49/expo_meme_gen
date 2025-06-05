@@ -5,9 +5,9 @@
 ### Project Setup
 - [x] Initialize new Expo project
 - [x] Set up project structure and organization
-- [ ] Install essential dependencies (React Navigation, Image Manipulation libraries)
-- [ ] Configure ESLint and Prettier for code consistency
-- [ ] Create GitHub repository for version control
+- [x] Install essential dependencies (React Navigation, Image Manipulation libraries)
+- [x] Configure ESLint and Prettier for code consistency
+- [x] Create GitHub repository for version control
 
 ### Environment Configuration
 - [ ] Set up environment variables for API keys
