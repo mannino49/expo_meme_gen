@@ -1,0 +1,101 @@
+# MemeMaker - Social Media Meme Generator
+
+An Expo mobile application for creating, customizing, and sharing memes on social media platforms using OpenAI's GPT-image-1 API.
+
+## Overview
+
+MemeMaker allows users to:
+- Generate custom meme images using text prompts
+- Add text overlays in various meme styles
+- Edit existing images with meme text
+- Share creations directly to social media platforms
+
+## Technology Stack
+
+- **Frontend**: React Native with Expo
+- **Image Generation**: OpenAI GPT-image-1 API
+- **State Management**: React Context API
+- **UI Components**: React Native Paper
+- **Navigation**: React Navigation
+
+## Project Structure
+
+```
+meme-generator-app/
+├── assets/             # Images, fonts, and static resources
+├── components/         # Reusable UI components
+├── screens/            # App screens
+├── services/           # API clients and services
+├── hooks/              # Custom React hooks
+├── context/            # State management
+├── utils/              # Helper functions
+├── navigation/         # Navigation configuration
+├── constants/          # App constants and theme
+└── docs/               # Project documentation
+    ├── development_plan.md
+    └── tasks.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- Expo CLI
+- OpenAI API key
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd meme-generator-app
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Create a `.env` file in the project root and add your OpenAI API key:
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+
+4. Start the development server:
+   ```
+   expo start
+   ```
+
+## Features
+
+- **Text-to-Image Generation**: Create custom meme images using natural language prompts
+- **Text Overlays**: Add classic meme text with customizable fonts and styles
+- **Template Library**: Access popular meme templates
+- **Image Editing**: Crop, resize, and adjust images
+- **Social Sharing**: Direct sharing to major social platforms
+- **Local Saving**: Save memes to device gallery
+
+## Development Roadmap
+
+See the [development plan](docs/development_plan.md) for a detailed overview of the project phases and architecture.
+
+For specific implementation tasks, refer to the [tasks list](docs/tasks.md).
+
+## API Usage Notes
+
+This application uses the OpenAI GPT-image-1 model for image generation. Key features include:
+
+- High-quality image generation from text prompts
+- Text rendering directly on images
+- Image editing capabilities
+- Support for multiple input images
+
+## License
+
+[MIT License](LICENSE)
+
+## Acknowledgments
+
+- OpenAI for providing the GPT-image-1 API
+- Expo team for the React Native development framework
